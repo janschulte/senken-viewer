@@ -9,6 +9,7 @@ export class MapService {
   public map: Map;
   public baseMaps: any;
   private vtLayer: any;
+  private imageLayer: any;
   private countyLayer: any;
   private buildingsLayer: any;
 
@@ -25,11 +26,18 @@ export class MapService {
       })
     };
 
-    this.countyLayer = L.tileLayer.wms('http://localhost:8080/geoserver/hack/wms', {
+    this.countyLayer = L.tileLayer.wms('http://132.252.224.92:8080/geoserver/hack/wms', {
       layers: 'hack:oberbergischer_kreis',
       format: 'image/png',
       transparent: true,
       opacity: 0.5
+    });
+
+    this.imageLayer = L.tileLayer.wms('http://localhost:8080/geoserver/dwa-hackathon/wms', {
+      layers: 'dwa-hackathon:S2_rgb',
+      format: 'image/png',
+      transparent: true,
+      opacity: 1
     });
 
     // let options = {'transparent': true};
@@ -38,18 +46,12 @@ export class MapService {
     // source.addSubLayer('hack:oberbergischer_kreis');
     // source.addTo(this.map);
 
-    this.buildingsLayer = L.tileLayer.wms('http://localhost:8080/geoserver/hack/wms', {
+    this.buildingsLayer = L.tileLayer.wms('http://132.252.224.92:8080/geoserver/hack/wms', {
       layers: 'hack:gebaeude_clip',
       format: 'image/png',
       transparent: true,
       opacity: 0.5
     });
-
-    // this.http.get('assets/example-websocket-output.json')
-    //   .map(res => res.json())
-    //   .subscribe(result => {
-    //
-    //   })
 
     let socket = new WebSocket('ws://localhost:8090/ws');
 
@@ -109,23 +111,27 @@ export class MapService {
     }
   }
 
-  private toggleLayer(layer) {
-    if (this.map.hasLayer(layer)) {
+  private toggleLayer(layer, toggle: boolean) {
+    if (this.map.hasLayer(layer) && !toggle) {
       this.map.removeLayer(layer);
     } else {
       this.map.addLayer(layer);
     }
   }
 
-  toggleCountyLayer() {
-    this.toggleLayer(this.countyLayer);
+  toggleCountyLayer(toggle: boolean) {
+    this.toggleLayer(this.countyLayer, toggle);
   }
 
-  toggleBuildingsLayer() {
-    this.toggleLayer(this.buildingsLayer);
+  toggleBuildingsLayer(toggle: boolean) {
+    this.toggleLayer(this.buildingsLayer, toggle);
   }
 
-  toggleWarningLayer() {
-    this.toggleLayer(this.vtLayer);
+  toggleWarningLayer(toggle: boolean) {
+    this.toggleLayer(this.vtLayer, toggle);
+  }
+
+  toggleImageLayer(toggle: boolean) {
+    this.toggleLayer(this.imageLayer, toggle);
   }
 }

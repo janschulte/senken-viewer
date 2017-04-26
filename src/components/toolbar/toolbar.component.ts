@@ -18,6 +18,7 @@ export class ToolbarComponent {
     countyLayerAdded: boolean;
     buildingLayerAdded: boolean;
     warningLayerAdded: boolean;
+    imageLayerAdded: boolean;
     markerCount: number;
 
     constructor(private mapService: MapService) {
@@ -82,18 +83,23 @@ export class ToolbarComponent {
     //     this.mapService.toggleAirPortLayer();
     // }
 
+    toggleImageLayer() {
+        this.imageLayerAdded = !this.imageLayerAdded;
+        this.mapService.toggleImageLayer(this.imageLayerAdded);
+    }
+
     toggleCountyLayer() {
         this.countyLayerAdded = !this.countyLayerAdded;
-        this.mapService.toggleCountyLayer();
+        this.mapService.toggleCountyLayer(this.countyLayerAdded);
     }
 
     toggleBuildingsLayer() {
       this.buildingLayerAdded = !this.buildingLayerAdded;
-      this.mapService.toggleBuildingsLayer();
+      this.mapService.toggleBuildingsLayer(this.buildingLayerAdded);
     }
 
     toggleWarningLayer() {
       this.warningLayerAdded = !this.warningLayerAdded;
-      this.mapService.toggleWarningLayer();
+      this.mapService.toggleWarningLayer(this.warningLayerAdded);
     }
 }

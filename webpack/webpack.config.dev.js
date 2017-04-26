@@ -53,6 +53,10 @@ module.exports = {
             from: srcDir + '/assets',
             to: 'assets'
         }]),
+        new webpack.ContextReplacementPlugin(
+          /angular(\\|\/)core(\\|\/)@angular/,
+          path.resolve(__dirname, '../src')
+        ),
         new WebpackCleanupPlugin({
           exclude: ['index.html', 'data/airports.geojson']
         })
