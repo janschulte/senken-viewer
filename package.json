@@ -1,22 +1,8 @@
 {
-  "name": "ngx-leaflet-starter",
+  "name": "senken-viewer",
   "version": "2.0.0",
-  "description": "A minimal Angular X project with leaflet",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/haoliangyu/ngx-leaflet-starter.git"
-  },
-  "keywords": [
-    "angular",
-    "leaflet",
-    "starter"
-  ],
-  "author": "Haoliang Yu <haholiang.yu@outlook.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/haoliangyu/ngx-leaflet-starter/issues"
-  },
   "scripts": {
     "build": "webpack --config webpack/webpack.config.prod.js",
     "build-dev": "webpack --config webpack/webpack.config.dev.js",
@@ -24,7 +10,6 @@
     "server:dev": "webpack-dev-server --config webpack/webpack.config.dev.js --progress --profile --watch",
     "start": "npm run server:dev"
   },
-  "homepage": "https://github.com/haoliangyu/ngx-leaflet-starter#readme",
   "dependencies": {
     "@angular/common": "^4.0.2",
     "@angular/compiler": "^4.0.2",
