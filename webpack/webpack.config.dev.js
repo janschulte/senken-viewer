@@ -2,6 +2,7 @@ const webpack = require('webpack');
 const path = require('path');
 
 const HtmlWebpackPlugin  = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin');
 const WebpackCleanupPlugin = require('webpack-cleanup-plugin');
@@ -10,7 +11,7 @@ const srcDir = 'public_src';
 const outputDir = '../public';
 
 module.exports = {
-    devtool: "eval",
+    devtool: 'eval-source-map',
     entry: {
         app: path.resolve(srcDir, 'bootstrap.ts')
     },
@@ -48,6 +49,10 @@ module.exports = {
         new ScriptExtHtmlWebpackPlugin({
           defaultAttribute: 'defer'
         }),
+        new CopyWebpackPlugin([{
+            from: srcDir + '/assets',
+            to: 'assets'
+        }]),
         new WebpackCleanupPlugin({
           exclude: ['index.html', 'data/airports.geojson']
         })

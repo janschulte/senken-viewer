@@ -76,10 +76,10 @@ export class ToolbarComponent {
         }
     }
 
-    toggleAirPortLayer() {
-        this.airportLayerAdded = !this.airportLayerAdded;
-        this.mapService.toggleAirPortLayer();
-    }
+    // toggleAirPortLayer() {
+    //     this.airportLayerAdded = !this.airportLayerAdded;
+    //     this.mapService.toggleAirPortLayer();
+    // }
 
     toggleCountyLayer() {
         this.countyLayerAdded = !this.countyLayerAdded;

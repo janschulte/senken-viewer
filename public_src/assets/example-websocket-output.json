@@ -1,0 +1,626 @@
+[
+    {
+        "type": "Point",
+        "coordinates": [
+            9.413537791005833,
+            48.65300675878625
+        ],
+        "properties": {
+            "start": 1493118000000,
+            "end": 1493222400000,
+            "regionName": "Kreis Esslingen",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 50 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BW",
+            "instruction": "",
+            "state": "Baden-Württemberg",
+            "uuid": "92758570-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "108116000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            9.588418665900432,
+            48.75768325623169
+        ],
+        "properties": {
+            "start": 1493118000000,
+            "end": 1493222400000,
+            "regionName": "Kreis Göppingen",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 50 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BW",
+            "instruction": "",
+            "state": "Baden-Württemberg",
+            "uuid": "92758573-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "108117000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            10.373392305939063,
+            48.70090804452513
+        ],
+        "properties": {
+            "start": 1493118000000,
+            "end": 1493222400000,
+            "regionName": "Kreis Heidenheim",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 50 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BW",
+            "instruction": "",
+            "state": "Baden-Württemberg",
+            "uuid": "92758576-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "108135000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            8.539456106637765,
+            48.4607330538783
+        ],
+        "properties": {
+            "start": 1493118000000,
+            "end": 1493222400000,
+            "regionName": "Kreis Freudenstadt",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 50 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BW",
+            "instruction": "",
+            "state": "Baden-Württemberg",
+            "uuid": "9275857c-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "108237000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            7.796928784152694,
+            48.202294434987074
+        ],
+        "properties": {
+            "start": 1493118000000,
+            "end": 1493222400000,
+            "regionName": "Kreis Emmendingen",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 50 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BW",
+            "instruction": "",
+            "state": "Baden-Württemberg",
+            "uuid": "92758580-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "108316000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            7.958746740012127,
+            48.596664035150454
+        ],
+        "properties": {
+            "start": 1493118000000,
+            "end": 1493222400000,
+            "regionName": "Ortenaukreis",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 50 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BW",
+            "instruction": "",
+            "state": "Baden-Württemberg",
+            "uuid": "92758582-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "108317000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            8.330673276996361,
+            48.28281015269838
+        ],
+        "properties": {
+            "start": 1493118000000,
+            "end": 1493222400000,
+            "regionName": "Kreis Rottweil",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 50 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BW",
+            "instruction": "",
+            "state": "Baden-Württemberg",
+            "uuid": "92758584-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "108325000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            8.480582518991373,
+            48.06339747442696
+        ],
+        "properties": {
+            "start": 1493118000000,
+            "end": 1493222400000,
+            "regionName": "Schwarzwald-Baar-Kreis",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 50 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BW",
+            "instruction": "",
+            "state": "Baden-Württemberg",
+            "uuid": "92758586-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "108326000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            8.67471992486996,
+            48.10717212231844
+        ],
+        "properties": {
+            "start": 1493118000000,
+            "end": 1493222400000,
+            "regionName": "Kreis Tuttlingen",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 50 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BW",
+            "instruction": "",
+            "state": "Baden-Württemberg",
+            "uuid": "92758588-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "108327000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            8.933564759955082,
+            47.67214367379902
+        ],
+        "properties": {
+            "start": 1493118000000,
+            "end": 1493222400000,
+            "regionName": "Kreis Konstanz",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 50 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BW",
+            "instruction": "",
+            "state": "Baden-Württemberg",
+            "uuid": "9275858b-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "108335000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            7.593404933181912,
+            47.63858954518846
+        ],
+        "properties": {
+            "start": 1493118000000,
+            "end": 1493222400000,
+            "regionName": "Kreis Lörrach",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 50 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BW",
+            "instruction": "",
+            "state": "Baden-Württemberg",
+            "uuid": "9275858e-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "108336000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            8.098721203092998,
+            47.62655328918878
+        ],
+        "properties": {
+            "start": 1493118000000,
+            "end": 1493222400000,
+            "regionName": "Kreis Waldshut",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 50 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BW",
+            "instruction": "",
+            "state": "Baden-Württemberg",
+            "uuid": "92758590-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "108337000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            9.202487297182564,
+            48.40452923582164
+        ],
+        "properties": {
+            "start": 1493118000000,
+            "end": 1493222400000,
+            "regionName": "Kreis Reutlingen",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 50 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BW",
+            "instruction": "",
+            "state": "Baden-Württemberg",
+            "uuid": "92758592-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "108415000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            8.906769767826752,
+            48.32308819329745
+        ],
+        "properties": {
+            "start": 1493118000000,
+            "end": 1493222400000,
+            "regionName": "Zollernalbkreis",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 50 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BW",
+            "instruction": "",
+            "state": "Baden-Württemberg",
+            "uuid": "92758596-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "108417000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            9.81269007370069,
+            47.96874688646543
+        ],
+        "properties": {
+            "start": 1493118000000,
+            "end": 1493222400000,
+            "regionName": "Kreis Biberach",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 50 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BW",
+            "instruction": "",
+            "state": "Baden-Württemberg",
+            "uuid": "9275859a-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "108426000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            9.087676044886141,
+            47.846663143898354
+        ],
+        "properties": {
+            "start": 1493118000000,
+            "end": 1493222400000,
+            "regionName": "Bodenseekreis",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 50 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BW",
+            "instruction": "",
+            "state": "Baden-Württemberg",
+            "uuid": "9275859c-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "108435000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            9.840079165762958,
+            47.80602754225734
+        ],
+        "properties": {
+            "start": 1493118000000,
+            "end": 1493222400000,
+            "regionName": "Kreis Ravensburg",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 50 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BW",
+            "instruction": "",
+            "state": "Baden-Württemberg",
+            "uuid": "9275859f-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "108436000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            9.320370554238348,
+            48.24853926550771
+        ],
+        "properties": {
+            "start": 1493118000000,
+            "end": 1493222400000,
+            "regionName": "Kreis Sigmaringen",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 50 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BW",
+            "instruction": "",
+            "state": "Baden-Württemberg",
+            "uuid": "927585a2-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "108437000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            10.1990795111499,
+            48.02227844752734
+        ],
+        "properties": {
+            "start": 1493121600000,
+            "end": 1493222400000,
+            "regionName": "Stadt Memmingen",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 40 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BY",
+            "instruction": "",
+            "state": "Bayern",
+            "uuid": "927585c8-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "109764000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            10.580370768521215,
+            48.583646363923
+        ],
+        "properties": {
+            "start": 1493121600000,
+            "end": 1493222400000,
+            "regionName": "Kreis Dillingen a.d. Donau",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 40 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BY",
+            "instruction": "",
+            "state": "Bayern",
+            "uuid": "927585cc-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "109773000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            10.287457833565291,
+            48.457501506646615
+        ],
+        "properties": {
+            "start": 1493121600000,
+            "end": 1493222400000,
+            "regionName": "Kreis Günzburg",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 40 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BY",
+            "instruction": "",
+            "state": "Bayern",
+            "uuid": "927585ce-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "109774000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            10.11239825004772,
+            48.32314853907387
+        ],
+        "properties": {
+            "start": 1493121600000,
+            "end": 1493222400000,
+            "regionName": "Kreis Neu-Ulm",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 40 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BY",
+            "instruction": "",
+            "state": "Bayern",
+            "uuid": "927585d0-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "109775000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            9.988591124396487,
+            47.64490732407706
+        ],
+        "properties": {
+            "start": 1493121600000,
+            "end": 1493222400000,
+            "regionName": "Kreis Lindau",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 40 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BY",
+            "instruction": "",
+            "state": "Bayern",
+            "uuid": "927585d2-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "109776000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            10.730641719782817,
+            47.68209895206161
+        ],
+        "properties": {
+            "start": 1493121600000,
+            "end": 1493222400000,
+            "regionName": "Kreis Ostallgäu",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 40 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BY",
+            "instruction": "",
+            "state": "Bayern",
+            "uuid": "927585d5-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "109777000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            10.629110634389745,
+            48.09802852154518
+        ],
+        "properties": {
+            "start": 1493121600000,
+            "end": 1493222400000,
+            "regionName": "Kreis Unterallgäu",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 40 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BY",
+            "instruction": "",
+            "state": "Bayern",
+            "uuid": "927585d9-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "109778000"
+        }
+    },
+    {
+        "type": "Point",
+        "coordinates": [
+            10.16476695730635,
+            47.69243870885741
+        ],
+        "properties": {
+            "start": 1493121600000,
+            "end": 1493222400000,
+            "regionName": "Kreis Oberallgäu",
+            "level": 3,
+            "type": 2,
+            "altitudeStart": null,
+            "event": "DAUERREGEN",
+            "headline": "Amtliche WARNUNG vor DAUERREGEN",
+            "description": "Es tritt Dauerregen auf. Dabei werden Niederschlagsmengen zwischen 30 l/m² und 40 l/m² erwartet.",
+            "altitudeEnd": null,
+            "stateShort": "BY",
+            "instruction": "",
+            "state": "Bayern",
+            "uuid": "927585dd-2a5d-11e7-b801-1f44f898cabe",
+            "cell": "109780000"
+        }
+    }
+]
