@@ -14,11 +14,16 @@
 </button> -->
 
 <button id="toggle-county-layer" class="btn btn-default on-map" [class.btn-primary]="countyLayerAdded"
-        title="Toggle the airport layer" (click)="toggleCountyLayer()" btnCheckbox>
+        title="Toggle the county layer" (click)="toggleCountyLayer()" btnCheckbox>
     <i class="fa fa-circle-thin"></i>
 </button>
 
 <button id="toggle-building-layer" class="btn btn-default on-map" [class.btn-primary]="buildingLayerAdded"
-        title="Toggle the airport layer" (click)="toggleBuildingsLayer()" btnCheckbox>
+        title="Toggle the building layer" (click)="toggleBuildingsLayer()" btnCheckbox>
     <i class="fa fa-home"></i>
+</button>
+
+<button id="toggle-warning-layer" class="btn btn-default on-map" [class.btn-primary]="warningLayerAdded"
+        title="Toggle the warning layer" (click)="toggleWarningLayer()" btnCheckbox>
+    <i class="fa fa-exclamation"></i>
 </button>

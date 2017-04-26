@@ -1,13 +1,13 @@
-import {Component} from "@angular/core";
-import {MapService} from "../../services/map.service";
-import {Map, MouseEvent, Marker} from "leaflet";
+import {Component} from '@angular/core';
+import {MapService} from '../../services/map.service';
+import {Map, MouseEvent, Marker} from 'leaflet';
 
 @Component({
-    selector: "toolbar",
-    template: require<any>("./toolbar.component.html"),
+    selector: 'toolbar',
+    template: require<any>('./toolbar.component.html'),
     styles: [
-        require<any>("./toolbar.component.less"),
-        require<any>("../../styles/main.less")
+        require<any>('./toolbar.component.less'),
+        require<any>('../../styles/main.less')
     ],
     providers: []
 })
@@ -17,6 +17,7 @@ export class ToolbarComponent {
     airportLayerAdded: boolean;
     countyLayerAdded: boolean;
     buildingLayerAdded: boolean;
+    warningLayerAdded: boolean;
     markerCount: number;
 
     constructor(private mapService: MapService) {
@@ -26,23 +27,23 @@ export class ToolbarComponent {
     }
 
     ngOnInit() {
-        // this.mapService.disableMouseEvent("add-marker");
-        // this.mapService.disableMouseEvent("remove-marker");
-        this.mapService.disableMouseEvent("toggle-county-layer");
-        this.mapService.disableMouseEvent("toggle-building-layer");
+        // this.mapService.disableMouseEvent('add-marker');
+        // this.mapService.disableMouseEvent('remove-marker');
+        this.mapService.disableMouseEvent('toggle-county-layer');
+        this.mapService.disableMouseEvent('toggle-building-layer');
     }
 
     Initialize() {
-        this.mapService.map.on("click", (e: MouseEvent) => {
+        this.mapService.map.on('click', (e: MouseEvent) => {
             if (this.editing) {
                 let marker = L.marker(e.latlng, {
                     icon: L.icon({
-                        iconUrl: require<any>("../../../node_modules/leaflet/dist/images/marker-icon.png"),
-                        shadowUrl: require<any>("../../../node_modules/leaflet/dist/images/marker-shadow.png")
+                        iconUrl: require<any>('../../../node_modules/leaflet/dist/images/marker-icon.png'),
+                        shadowUrl: require<any>('../../../node_modules/leaflet/dist/images/marker-shadow.png')
                     }),
                     draggable: true
                 })
-                .bindPopup("Marker #" + (this.markerCount + 1).toString(), {
+                .bindPopup('Marker #' + (this.markerCount + 1).toString(), {
                     offset: L.point(12, 6)
                 })
                 .addTo(this.mapService.map)
@@ -50,7 +51,7 @@ export class ToolbarComponent {
 
                 this.markerCount += 1;
 
-                marker.on("click", (event: MouseEvent) => {
+                marker.on('click', (event: MouseEvent) => {
                     if (this.removing) {
                         this.mapService.map.removeLayer(marker);
                         this.markerCount -= 1;
@@ -89,5 +90,10 @@ export class ToolbarComponent {
     toggleBuildingsLayer() {
       this.buildingLayerAdded = !this.buildingLayerAdded;
       this.mapService.toggleBuildingsLayer();
+    }
+
+    toggleWarningLayer() {
+      this.warningLayerAdded = !this.warningLayerAdded;
+      this.mapService.toggleWarningLayer();
     }
 }

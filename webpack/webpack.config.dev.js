@@ -7,7 +7,7 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin');
 const WebpackCleanupPlugin = require('webpack-cleanup-plugin');
 
-const srcDir = 'public_src';
+const srcDir = 'src';
 const outputDir = '../public';
 
 module.exports = {
@@ -64,7 +64,8 @@ module.exports = {
         watchOptions: {
             aggregateTimeout: 300,
             poll: 1000
-        }
+        },
+        stats: 'minimal'
         // outputPath: helpers.root('dist')
     }
 };
