@@ -20,7 +20,9 @@
   "scripts": {
     "build": "webpack --config webpack/webpack.config.prod.js",
     "build-dev": "webpack --config webpack/webpack.config.dev.js",
-    "watch": "webpack --config webpack/webpack.config.dev.js --watch"
+    "watch": "webpack --config webpack/webpack.config.dev.js --watch",
+    "server:dev": "webpack-dev-server --config webpack/webpack.config.dev.js --progress --profile --watch",
+    "start": "npm run server:dev"
   },
   "homepage": "https://github.com/haoliangyu/ngx-leaflet-starter#readme",
   "dependencies": {
@@ -62,6 +64,7 @@
     "typescript": "^2.2.2",
     "url-loader": "^0.5.8",
     "webpack": "^2.3.3",
+    "webpack-dev-server": "2.4.1",
     "webpack-cleanup-plugin": "^0.5.1"
   }
 }

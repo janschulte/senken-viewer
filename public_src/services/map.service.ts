@@ -8,6 +8,8 @@ export class MapService {
     public map: Map;
     public baseMaps: any;
     private vtLayer: any;
+    private countyLayer: any;
+    private buildingsLayer: any;
 
     constructor(private http: Http) {
         this.baseMaps = {
@@ -21,6 +23,20 @@ export class MapService {
                 attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
             })
         };
+
+        this.countyLayer = L.tileLayer.wms("http://localhost:8080/geoserver/hack/wms", {
+          layers: "hack:oberbergischer_kreis",
+          format: "image/png",
+          transparent: true,
+          opacity: 0.5
+        });
+
+        this.buildingsLayer = L.tileLayer.wms("http://localhost:8080/geoserver/hack/wms", {
+          layers: "hack:gebaeude_clip",
+          format: "image/png",
+          transparent: true,
+          opacity: 0.5
+        });
     }
 
     disableMouseEvent(elementId: string) {
@@ -35,12 +51,28 @@ export class MapService {
           this.map.removeLayer(this.vtLayer);
           delete this.vtLayer;
       } else {
-          this.http.get("https://rawgit.com/haoliangyu/angular2-leaflet-starter/master/public/data/airports.geojson")
+          this.http.get("http://rawgit.com/haoliangyu/angular2-leaflet-starter/master/public/data/airports.geojson")
               .map(res => res.json())
               .subscribe(result => {
                   this.vtLayer = L.vectorGrid.slicer(result);
                   this.vtLayer.addTo(this.map);
               });
       }
+    }
+
+    private toggleLayer(layer) {
+      if(this.map.hasLayer(layer)) {
+        this.map.removeLayer(layer);
+      } else {
+        this.map.addLayer(layer);
+      }
+    }
+
+    toggleCountyLayer() {
+      this.toggleLayer(this.countyLayer);
+    }
+
+    toggleBuildingsLayer() {
+      this.toggleLayer(this.buildingsLayer);
     }
 }

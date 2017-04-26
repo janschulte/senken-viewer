@@ -15,6 +15,8 @@ export class ToolbarComponent {
     editing: boolean;
     removing: boolean;
     airportLayerAdded: boolean;
+    countyLayerAdded: boolean;
+    buildingLayerAdded: boolean;
     markerCount: number;
 
     constructor(private mapService: MapService) {
@@ -24,9 +26,10 @@ export class ToolbarComponent {
     }
 
     ngOnInit() {
-        this.mapService.disableMouseEvent("add-marker");
-        this.mapService.disableMouseEvent("remove-marker");
-        this.mapService.disableMouseEvent("toggle-layer");
+        // this.mapService.disableMouseEvent("add-marker");
+        // this.mapService.disableMouseEvent("remove-marker");
+        this.mapService.disableMouseEvent("toggle-county-layer");
+        this.mapService.disableMouseEvent("toggle-building-layer");
     }
 
     Initialize() {
@@ -76,5 +79,15 @@ export class ToolbarComponent {
     toggleAirPortLayer() {
         this.airportLayerAdded = !this.airportLayerAdded;
         this.mapService.toggleAirPortLayer();
+    }
+
+    toggleCountyLayer() {
+        this.countyLayerAdded = !this.countyLayerAdded;
+        this.mapService.toggleCountyLayer();
+    }
+
+    toggleBuildingsLayer() {
+      this.buildingLayerAdded = !this.buildingLayerAdded;
+      this.mapService.toggleBuildingsLayer();
     }
 }

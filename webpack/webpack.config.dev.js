@@ -51,5 +51,15 @@ module.exports = {
         new WebpackCleanupPlugin({
           exclude: ['index.html', 'data/airports.geojson']
         })
-    ]
+    ],
+    devServer: {
+        port: 3456,
+        host: '0.0.0.0',
+        historyApiFallback: true,
+        watchOptions: {
+            aggregateTimeout: 300,
+            poll: 1000
+        }
+        // outputPath: helpers.root('dist')
+    }
 };

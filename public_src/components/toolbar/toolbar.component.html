@@ -1,4 +1,4 @@
-<button id="add-marker" class="btn btn-default on-map" [class.btn-primary]="editing"
+<!-- <button id="add-marker" class="btn btn-default on-map" [class.btn-primary]="editing"
         title="Add markers by clicking on the map" (click)="toggleEditing()" btnCheckbox>
     <i class="fa fa-map-marker"></i>
 </button>
@@ -6,9 +6,19 @@
 <button id="remove-marker" class="btn btn-default on-map" [class.btn-primary]="removing"
         title="Remove markers by clicking on them" (click)="toggleRemoving()" btnCheckbox>
     <i class="fa fa-trash"></i>
-</button>
+</button> -->
 
-<button id="toggle-layer" class="btn btn-default on-map" [class.btn-primary]="airportLayerAdded"
+<!-- <button id="toggle-layer" class="btn btn-default on-map" [class.btn-primary]="airportLayerAdded"
         title="Toggle the airport layer" (click)="toggleAirPortLayer()" btnCheckbox>
     <i class="fa fa-plane"></i>
+</button> -->
+
+<button id="toggle-county-layer" class="btn btn-default on-map" [class.btn-primary]="countyLayerAdded"
+        title="Toggle the airport layer" (click)="toggleCountyLayer()" btnCheckbox>
+    <i class="fa fa-circle-thin"></i>
+</button>
+
+<button id="toggle-building-layer" class="btn btn-default on-map" [class.btn-primary]="buildingLayerAdded"
+        title="Toggle the airport layer" (click)="toggleBuildingsLayer()" btnCheckbox>
+    <i class="fa fa-home"></i>
 </button>
